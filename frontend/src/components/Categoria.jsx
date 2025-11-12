@@ -1,35 +1,27 @@
-const Categoria = ({categorias,filtroItems}) => {
-
-  const produtos =(opcao)=>{
-    switch(opcao.toLowerCase()){
-      case "São Paulo":
-        return;
-      case "Belo Horizonte":
-        return;
-      case "Rio de Janeiro":
-        return;
-      case "Campinas":
-        return;
-      case "Porto Alegre":
-        return;
-
-      default:
-        return null;
-    }
-  }
-
+const Categoria = ({ titulo, opcoes, selecionados, aoClicar }) => {
   return (
-    <nav className="flex justify-center flex-wrap gap-4 mb-12">
-      {categorias.map((opcao,index)=>(
-        <button key={index} onClick={()=>filtroItems(opcao)}
-        className="bg-slate-800 text-white border-none rounded-lg px-5 py-3 cursor-pointer transition-all duration-300 hover:bg-amber-600 hover:scale-105 hover:shadow-lg"
-        >
-          {produtos(opcao)}
-          {opcao}
-        </button>
-      ))}
-    </nav>
-  )
-}
+    <div className="text-center">
+      <h2 className="text-xl font-semibold text-slate-800 mb-4">{titulo}</h2>
+      <nav className="flex justify-center flex-wrap gap-3">
+        {opcoes.map((opcao, index) => {
+          const ativo = selecionados.includes(opcao);
+          return (
+            <button
+              key={index}
+              onClick={() => aoClicar(opcao)}
+              className={`px-5 py-2 rounded-lg text-sm font-medium border transition-all duration-300 ${
+                ativo
+                  ? "bg-amber-600 text-white border-amber-600 shadow-md scale-105"
+                  : "bg-white text-slate-700 border-gray-300 hover:bg-amber-100"
+              }`}
+            >
+              {opcao}
+            </button>
+          );
+        })}
+      </nav>
+    </div>
+  );
+};
 
-export default Categoria
+export default Categoria;
