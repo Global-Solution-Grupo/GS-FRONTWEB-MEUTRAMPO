@@ -409,7 +409,7 @@ const dados = [
   },
   {
     id: 35,
-    nome: "Fábio Henrique",
+    nome: "Luiza Mendonça",
     categoria: "Eletricista",
     img: "/src/assets/perfil35.jpg",
     cidade: "Rio de Janeiro",

@@ -24,7 +24,7 @@ const MenuItem = ({
         <img
           src={img}
           alt={nome}
-          className="w-full h-52 object-cover rounded-t-xl"
+          className="w-full h-full object-cover rounded-t-xl"
         />
         <div className="p-5 flex flex-col flex-grow">
           <header className="flex justify-between items-baseline border-b-2 border-orange-400 pb-2 mb-4">
