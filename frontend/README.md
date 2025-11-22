@@ -1,16 +1,67 @@
-# React + Vite
+✅ Resumo da Solução – MEU TRAMPO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A solução MEU TRAMPO consiste em uma plataforma web responsiva voltada para conectar usuários a oportunidades de emprego de forma simples, intuitiva e eficiente. O sistema organiza o processo de busca em etapas claras, combinando seleção de profissões, escolha de cidades e visualização detalhada de perfis profissionais.
 
-Currently, two official plugins are available:
+O foco da solução é reduzir a complexidade da busca por vagas, oferecendo um fluxo orientado, filtros inteligentes e uma interface acolhedora. A experiência do usuário é guiada por design responsivo, categorização visual clara e feedback imediato, garantindo acessibilidade e navegação fluida em dispositivos móveis ou desktop.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Passo a Passo da Plataforma
+1. Seleção de Profissões
 
-## React Compiler
+- Usuário escolhe múltiplas profissões em um grid organizado por categorias (Tecnologia, Saúde, Engenharia, etc.).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Há botões claros de ação: Aplicar Filtros e Limpar Filtros.
 
-## Expanding the ESLint configuration
+- Feedback visual indica profissões selecionadas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Escolha da Localidade
+
+- Segunda etapa do fluxo: o usuário escolhe uma ou mais cidades.
+
+- Lista simples com cidades principais.
+
+- Interface minimalista para focar na etapa atual.
+
+- Otimizada para mobile.
+
+3. Visualização do Perfil Profissional
+
+- Ao selecionar um profissional, o usuário vê:
+
+- Foto, nome e localização
+
+- Experiências
+
+- Habilidades técnicas e soft skills (em seções expansíveis)
+
+- Hobbies
+
+- Métricas visuais de compatibilidade
+
+- Botões de ação: Enviar Mensagem e Recomendar.
+
+🧭 Fluxo Completo da Solução
+
+1. Acessar o portal MEU TRAMPO
+
+2. Selecionar profissões desejadas
+
+3. Aplicar filtros ou limpar a seleção
+
+4. Escolher cidades onde deseja buscar vagas
+
+5. Visualizar perfis compatíveis
+
+6. Entrar em contato com o candidato escolhido
+
+📁 Repositório do Projeto
+
+👉 Repositório: https://github.com/Global-Solution-Grupo/GS-FRONTWEB-MEUTRAMPO
+
+👥 Integrantes do Projeto
+
+Lucas Rowlands Abat RM:562994
+Ronaldo Aparecido Monteiro Almeida RM: 565017
+Henrique Infanti Coratolo RM: 561865
+
+
+
