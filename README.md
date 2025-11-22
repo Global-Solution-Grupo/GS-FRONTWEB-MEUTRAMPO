@@ -59,9 +59,9 @@ O foco da solução é reduzir a complexidade da busca por vagas, oferecendo um 
 
 👥 Integrantes do Projeto
 
-Lucas Rowlands Abat RM:562994
-Ronaldo Aparecido Monteiro Almeida RM: 565017
-Henrique Infanti Coratolo RM: 561865
+- Lucas Rowlands Abat RM:562994
+- Ronaldo Aparecido Monteiro Almeida RM: 565017
+- Henrique Infanti Coratolo RM: 561865
 
 
 
